@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatalder导入器介绍网</title>
+    <style>
+    	/* 全局样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Microsoft Yahei", sans-serif;
+}
+
+/* 页面整体样式 */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* 头部导航栏 */
+header {
+    background-color: rgba(46, 139, 87, 0.9); /* 我的世界经典绿色半透明 */
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(34, 100, 63, 0.8);
+}
+
+nav a.active {
+    background-color: #1f7d4a;
+    font-weight: bold;
+}
+
+/* 主要内容区域 */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #2e8b57;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+h2 {
+    color: #2e8b57;
+    margin: 1.2rem 0;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+}
+
+/* 图片样式 */
+.img-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.img-container img {
+    max-width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+/* 列表样式 */
+ul {
+    margin: 1rem 0 1rem 2rem;
+}
+
+ul li {
+    margin-bottom: 0.8rem;
+    list-style: none;
+}
+
+/* 底部样式 */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(46, 139, 87, 0.9);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <nav>
+            <a href="index.html">首页</a>
+            <a href="a.html" class="active">功能介绍</a>
+            <a href="usage.html">使用教程</a>
+        </nav>
+    </header>
+
+    <!-- 主要内容 -->
+    <main>
+        <h1>Fatalder - 核心功能</h1>
+        
+        <div class="img-container">
+            <img src="img/QQ20260131-145046.png" alt="Fatalder">
+        </div>
+
+        <h2>1.Fatalder 是一款功能强大的导入器</h2>
+        <p>30多种格式全解析 高速且稳定</p>
+        <ul>
+            <li>主流处理-极低内存占用 高适配</li>
+            <li>多重严格模式 极少区块丢失保障</li>
+            <li>智能修补系统 高自定义化设定 收起</li>
+        </ul>
+
+        <h2>2. 智能路径识别</h2>
+        <p>自动识别不同版本我的世界的安装路径，无需玩家手动设置，适配Windows、Mac、Linux等多个系统，解决了新手找不到游戏目录的痛点。</p>
+
+        <h2>3. 资源管理功能</h2>
+        <p>内置资源管理面板，可查看已导入的所有资源</p>
+
+        <h2>4. 版本适配检测</h2>
+        <p>自动检测资源与游戏版本的兼容性，避免因版本不匹配导致游戏崩溃，同时提供版本建议。</p>
+    </main>
+
+    <!-- 底部 -->
+    <footer>
+        Fatalder导入器 - 版权所有 © 2026
+    </footer>
+</body>
+</html>
